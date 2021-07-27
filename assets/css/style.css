@@ -423,12 +423,66 @@ img{
     transition: .4s;
 }
 
+.skills__list{
+    row-gap: 1.5rem;
+    padding-left: 2.7rem;
+}
+
 .skills__titles{
     display: flex;
     justify-content: space-between;
     margin-bottom: var(--mb-0-5);
 }
 
+.skills__name{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+
+.skills__bar,
+.skills__percentage{
+    height: 5px;
+    border-radius: .25rem;
+}
+
+.skills__bar{
+    background-color: var(--first-color-lighter);
+}
+
+.skills__percentage{
+    display: block;
+    background-color: var(--first-color);
+}
+
+/* frontend skills bar */
+.skills__html{
+    width: 95%;
+}
+.skills__css{
+    width: 80%;
+}
+.skills__js{
+    width: 60%;
+}
+.skills__react{
+    width: 0%;
+
+}
+/* backend skills bar*/
+.skills__php{
+    width: 65%;
+}
+
+/* design skills bar */
+.skills__photoshop{
+    width: 70%;
+}
+.skills__illustrator{
+    width: 60%;
+}
+.skills__sketch{
+    width: 85%;
+}
 
 
 /*==================== QUALIFICATION ====================*/
