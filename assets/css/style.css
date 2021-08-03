@@ -1002,6 +1002,10 @@ img{
     background-color: var(--text-color-light);
 }
 
+:root {
+    scrollbar-width: thin;
+}
+
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
 
