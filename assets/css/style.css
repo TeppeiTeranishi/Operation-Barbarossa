@@ -1,7 +1,8 @@
 /*==================== GOOGLE FONTS ====================*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
 
-
+::-moz-selection {color: #FFF; background: hsl(230, 69%, 61%);}
+::selection      {color: #FFF; background: hsl(230, 69%, 61%);}
 /*==================== VARIABLES CSS ====================*/
 :root {
     --header-height: ;
