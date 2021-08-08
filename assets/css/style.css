@@ -912,13 +912,13 @@ button{
 }
 
 /* this is for form validation */
-/* .warnings{
+.warnings{
     width: 200px;
     text-align: center;
     margin: auto;
     color: #FF0000;
     padding-top: 20px;
-} */
+}
 
 /*==================== FOOTER ====================*/
 .footer{

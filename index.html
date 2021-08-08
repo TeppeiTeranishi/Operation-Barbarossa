@@ -842,24 +842,24 @@
                     </div>
                 </div>
 
-                <form action="" name="contact" method="POST" data-netlify="true"  id="form" class="contact__form grid">
+                <form name="contact" method="POST" data-netlify="true"  id="form" class="contact__form grid">
                     <div class="contact__inputs grid">
                         <div class="contact__content">
                             <label for="name" class="contact__label">Name</label>
-                            <input type="text" name="name" id="name" class="contact__input" placeholder="Your name">
+                            <input type="text" name="name" id="name" class="contact__input" placeholder="Your name" required>
                         </div>
                         <div class="contact__content">
                             <label for="email" class="contact__label">Email</label>
-                            <input type="email" name="email" id="email" class="contact__input" placeholder="Your email">
+                            <input type="email" name="email" id="email" class="contact__input" placeholder="Your email" required>
                         </div>
                     </div>
                     <div class="contact__content">
                         <label for="project" class="contact__label">Project</label>
-                        <input type="text" name="project" id="project" class="contact__input" placeholder="Your project in mind">
+                        <input type="text" name="project" id="project" class="contact__input" placeholder="Your project in mind" required>
                     </div>
                     <div class="contact__content">
                         <label for="message" class="contact__label">Message</label>
-                        <textarea name="message" id="message" cols="0" rows="7" class="contact__input" placeholder="Your message here"></textarea>
+                        <textarea name="message" id="message" cols="0" rows="7" class="contact__input" placeholder="Your message here" required></textarea>
                     </div>
                     <div class="contact__content">
                         <div data-netlify-recaptcha="true"></div>
@@ -871,9 +871,9 @@
                             <i class="uil uil-message button__icon"></i>
                         </button>
                     </div>
-                    <!-- <div >
+                    <div >
                         <p class="warnings" id="warnings"></p>
-                   </div> -->
+                   </div> 
                 </form>
             </div>
         </section>
