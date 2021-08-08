@@ -191,3 +191,43 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+/*==================== FORM VALIDATION ====================*/ 
+const namev1 = document.getElementById("name");
+const emailv1 = document.getElementById("email");
+const projectv1 = document.getElementById("project");
+const messagev1 = document.getElementById("message");
+const formv1 = document.getElementById("form");
+const paragraphv1 = document.getElementById("warnings");
+
+formv1.addEventListener("submit", e=>{
+    e.preventDefault();
+    let warnings = "";
+    let entry = false;
+    let regexName = /^[A-Za-z][A-Za-z\s]*$/;
+    let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/;
+    let regexProject = /^[A-Za-z][A-Za-z\s]*$/;
+    let regexMessage = /^[A-Za-z][A-Za-z\s]*$/;
+    if (!regexName.test(namev1.value)) {
+        warnings += `The name is not valid or too short.  <br>`;
+        entry = true;
+    }
+    if (!regexEmail.test(emailv1.value)) {
+        warnings += `The email is not valid. <br>`;
+        entry = true;
+    }
+    if (!regexProject.test(projectv1.value)) {
+        warnings += `The project name title is too short.  <br>`;
+        entry = true;
+    }
+    if (!regexMessage.test(projectv1.value)) {
+        warnings += `The message is not valid or too short.  <br>`;
+        entry = true;
+    }
+
+    if (entry) {
+        paragraphv1.innerHTML = warnings
+    }else{
+        paragraphv1.innerHTML = "Submitted successfully"
+    }
+});
