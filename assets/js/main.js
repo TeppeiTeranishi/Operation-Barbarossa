@@ -197,7 +197,7 @@ const namev1 = document.getElementById("name");
 const emailv1 = document.getElementById("email");
 const projectv1 = document.getElementById("project");
 const messagev1 = document.getElementById("message");
-const formv1 = document.getElementById("form");
+// const formv1 = document.getElementById("form");
 const paragraphv1 = document.getElementById("warnings");
 
 formv1.addEventListener("submit", e=>{
