@@ -353,6 +353,11 @@ img{
 }
 
 /*==================== BUTTONS ====================*/
+button{
+    font-size: var(--font-medium);
+    border: 0;
+}
+
 .button{
     display: inline-block;
     background-color: var(--first-color);
@@ -906,6 +911,14 @@ img{
     padding: .25rem .5rem .5rem 0;
 }
 
+/* this is for form validation */
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #FF0000;
+    padding-top: 20px;
+}
 
 /*==================== FOOTER ====================*/
 .footer{
