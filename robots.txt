@@ -1,0 +1,7 @@
+Sitemap: https://ademircandelario.netlify.app/
+User-Agent: *
+Allow:/assets
+Allow:/css
+Allow:/img
+Allow:/js
+Allow:/pdf
