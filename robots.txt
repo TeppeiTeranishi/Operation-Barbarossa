@@ -1,4 +1,4 @@
-Sitemap: https://ademircandelario.netlify.app/
+Sitemap: https://ademircandelario.netlify.app/sitemap.xml
 User-Agent: *
 Allow:/assets
 Allow:/css
