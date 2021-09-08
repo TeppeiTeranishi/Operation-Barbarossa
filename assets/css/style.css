@@ -735,6 +735,10 @@ button{
 }
 
 /*==================== PORTFOLIO ====================*/
+.telephone{
+    color: var(--title-color);
+}
+
 .portfolio__container{
     overflow: initial;
 }
